@@ -1,7 +1,9 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://saurav:EjCLf2h26RQfrY2@cluster0.fpwqi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+// mongodb+srv://saurav:EjCLf2h26RQfrY2@cluster0.fpwqi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 const connectDB = async () => {
   try {
